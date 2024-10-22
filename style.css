@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border: solid black;
+    display:flex;
+}
+
+img{
+    /*note just divide the og dimensions by two until finding an appropriate size*/
+    width:532px;
+    height: 299px;
+}
+
+.card-header{
+    margin: 0 20px 0 20px;
+}
+
+.bottom-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+}
+
+button{
+    background-color:#05cbe9;
+    color: #111D4A;
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    border: none;
+}
+
+h1{
+    color:#05cbe9;
+}
+
+h2{
+    color:gainsboro;
+}
+
+.card-info{
+    background-color: #111D4A;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-info{
+    align-self: flex-end;
+}
