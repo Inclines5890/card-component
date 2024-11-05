@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "layout.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class = "header site-header">
+    <div class = "flex-container">
+        <h2>CTTG</h2>
+
+        <div class = "nav-items">
+            <a class = "headerItem" href = "#">Store</a>
+            <a class = "headerItem" href = "#">about</a>
+        </div>
+    </div>   
+    </header>
+    
+    <div class = "main-body">
+        <div class = "login">
+            <ul class = "breadcrumbs">
+                <li class = "breadcrumb"><a href = "#">Home</a></li>
+                <li class = "breadcrumb"><a href = "#">Login</a></li>
+            </ul>
+
+            <h1 class = "page-heading">Sign in</h1>
+
+            <!--contains login and new customer container floats-->
+            <div class = "login-row">
+               
+            <form class = "login-form form" action = "" method = "post">
+                <div class = "form-field">
+                    <label class = "form-label" for = "login-email">Email Address: </label>
+                    <input class = "form-input" name = "login-email" id = "login-email" type = "email">
+                </div>
+
+                <div class = "form-field">
+                    <label class = "form-label" for = "login_pass">Password: </label>
+                    <input class = "form-input" id = "login_pass" type = "password" name = "login_pass" autocomplete="off">
+                </div>
+
+                <div class = "form-actions">
+                    <input type = "submit" class = "button button-primary" value = "Sign in">
+                    <a class = "forgot-password" href = "">Forgot your password?</a>
+                </div>
+            </form>
+
+            <div class = "new-customer">
+                <div class = "panel">
+                    <div class = "panel-header">
+                        <h2 class = "panel-title">New Customer?</h2>
+                    </div>
+
+                    <div class = "panel-body">
+                        <p class = "new-customer-intro">Create an account with us and you will be able to:</p>
+                        <ul class = "new-cutomer-fact-list">
+                            <li class = "new-customer-fact">Check out faster</li>
+                            <li class = "new-customer-fact">Save multiple shipping addresses</li>
+                            <li class = "new-customer-fact">Access your order history</li>
+                            <li class = "new-customer-fact">Track new orders</li>
+                            <li class = "new-customer-fact">Earn rewards and redeem for exlusive discounts</li>
+                        </ul>
+
+                        <a href = "#">
+                            <button class = "button button-primary">Create Account</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--class is to force class login row to encapsulate the floated elements-->
+            <br class="clear" />
+        </div> <!--closes login row-->
+        </div>
+    </div>
+
+    <footer role = "contentinfo">
+        <section role = "region" style = "background-color: #263236;">
+            <div class = "footer_menu wrapper container">
+                <a href = "#" title = "home" style = "display: block; margin-bottom: 30px; padding-right: 16px; padding-left: 16px; font-size: 2em; text-transform: uppercase;">
+                    cttg
+                </a>
+
+                <div style = "padding-right:16px; padding-left:16px">
+                    <div class = "footer-flex_item">
+                        <a class = "ancor_footer" href = "#" role = "menu-item"><span>Company</span></a>
+                        <a class = "ancor_footer" href = "#" role = "menu-item"><span>Become a Dealer</span></a>
+                        <a class = "ancor_footer" href = "#" role = "menu-item"><span>Contact Us</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section role = "region" style = "background-color: #37474f;">
+            <div class = "footer__copyright wrapper" style = "padding: 60px 0 100px; text-align: center;">
+                <span>2024 CTTG Inc. All rights reserved.</span>
+                <span>Site by Kraken Ops</span>
+                <span>Private Policy</span>
+                <span>|</span>
+                <span>Terms and Conditions of Use</span>
+            </div>
+        </section>
+
+        
+
+    </footer>
+
+    
+</body>
+</html>
